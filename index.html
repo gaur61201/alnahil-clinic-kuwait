@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Al-Nahil Clinic | Dermatology, Skincare &amp; Laser in Hawally, Kuwait | عيادة النهيل</title>
+  <meta name="description" content="Al-Nahil Clinic in Hawally, Kuwait offers expert dermatology, skincare, and laser treatments. Book your consultation today. عيادة النهيل - حولي، الكويت" />
+  <link rel="canonical" href="[PLACEHOLDER — GitHub Pages URL]" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Al-Nahil Clinic | Dermatology &amp; Laser — Hawally, Kuwait" />
+  <meta property="og:description" content="Expert dermatology, skincare, and laser treatments in Hawally, Kuwait." />
+  <meta property="og:image" content="images/logo.png/alnail_logo.png" />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500;600&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- LocalBusiness JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "name": "Al-Nahil Clinic",
+    "alternateName": "عيادة النهيل",
+    "description": "Beauty, cosmetic and personal care clinic specialising in dermatology, skincare, and laser treatments",
+    "url": "[PLACEHOLDER]",
+    "telephone": "+96560030620",
+    "email": "alnahilfloor6@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Al-Nahil International Center, 6th Floor, behind Southern Nugra Complex",
+      "addressLocality": "Hawally",
+      "addressCountry": "KW"
+    },
+    "openingHours": "Sa-Th 09:00-21:00",
+    "image": "images/logo.png/alnail_logo.png",
+    "sameAs": ["https://www.instagram.com/alnahil_6/"]
+  }
+  </script>
+
+  <!-- FAQ JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is laser hair removal safe for all skin types?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. At Al-Nahil Clinic in Hawally, Kuwait, we use advanced laser technology suitable for all skin types and tones, including darker skin common in the region."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many sessions do I need to see results?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most clients see significant results after 4–6 sessions. The exact number depends on your skin type, hair type, and treatment area. Our doctor will advise during your consultation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between skincare and dermatology?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dermatology is the medical diagnosis and treatment of skin conditions and diseases. Skincare focuses on cosmetic enhancement — improving texture, tone, hydration, and appearance. Al-Nahil Clinic offers both under one roof."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you treat sensitive skin?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely. Dr. Alaa Al-Harbi specialises in personalised treatment plans that are carefully tailored to sensitive skin types."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there any downtime after laser treatments?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most laser treatments at Al-Nahil Clinic have minimal to no downtime. You may experience mild redness for a few hours. We will provide full aftercare instructions."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════ PRELOADER ═══ -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <span class="preloader-text">النهيل</span>
+      <div class="preloader-line"></div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════ LANGUAGE TOGGLE ═══ -->
+  <button id="lang-toggle" aria-label="Toggle Language">
+    <span class="lang-en active">EN</span>
+    <span class="lang-divider">|</span>
+    <span class="lang-ar">ع</span>
+  </button>
+
+  <!-- ═══════════════════════════════════════ NAVBAR ═══ -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <img src="images/logo.png/alnail_logo.png" alt="Al-Nahil Clinic Logo — عيادة النهيل" />
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home"    data-en="Home"      data-ar="الرئيسية">Home</a></li>
+        <li><a href="#services" data-en="Services"  data-ar="خدماتنا">Services</a></li>
+        <li><a href="#about"   data-en="About"     data-ar="من نحن">About</a></li>
+        <li><a href="#results" data-en="Results"   data-ar="نتائجنا">Results</a></li>
+        <li><a href="#reviews" data-en="Reviews"   data-ar="آراء العملاء">Reviews</a></li>
+        <li><a href="#faq"     data-en="FAQ"       data-ar="الأسئلة الشائعة">FAQ</a></li>
+        <li><a href="#contact" data-en="Contact"   data-ar="تواصل معنا">Contact</a></li>
+        <li>
+          <a href="#contact" class="nav-cta" data-en="Book Appointment" data-ar="احجزي موعدك">Book Appointment</a>
+        </li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════ HERO ═══ -->
+  <section id="home" class="hero">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="videos/hero-bg.mp4/hero background video.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <div class="hero-headline">
+        <span class="word" data-en="Your Skin." data-ar="بشرتك.">Your Skin.</span>
+        <span class="word" data-en="Your Confidence." data-ar="ثقتك.">Your Confidence.</span>
+        <span class="word" data-en="Your Beauty." data-ar="جمالك.">Your Beauty.</span>
+      </div>
+      <p class="hero-sub" data-en="Dermatology · Skincare · Laser — Hawally, Kuwait"
+                          data-ar="طب الجلدية · العناية بالبشرة · الليزر — حولي، الكويت">
+        Dermatology · Skincare · Laser — Hawally, Kuwait
+      </p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-gold"
+           data-en="Book a Consultation" data-ar="احجزي استشارة">Book a Consultation</a>
+        <a href="#services" class="btn btn-outline"
+           data-en="Explore Services" data-ar="اكتشفي خدماتنا">Explore Services</a>
+      </div>
+    </div>
+
+    <div class="scroll-arrow">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ TRUST STRIP ═══ -->
+  <section class="trust-strip">
+    <div class="trust-container">
+      <div class="trust-item">
+        <i class="fas fa-user-md"></i>
+        <span data-en="Licensed Dermatologists" data-ar="أطباء جلدية معتمدون">Licensed Dermatologists</span>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item">
+        <i class="fas fa-magic"></i>
+        <span data-en="Advanced Laser Technology" data-ar="تقنية ليزر متطورة">Advanced Laser Technology</span>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item">
+        <i class="fas fa-heart"></i>
+        <span><span class="counter" data-target="1000">0</span><span data-en="+ Happy Clients" data-ar="+ عميلة سعيدة">+ Happy Clients</span></span>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span data-en="Hawally, Kuwait Since 2015" data-ar="حولي، الكويت منذ ٢٠١٥">Hawally, Kuwait Since 2015</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ SERVICES ═══ -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-en="What We Offer" data-ar="ما نقدمه">What We Offer</span>
+        <h2 data-en="Our Services" data-ar="خدماتنا">Our Services</h2>
+        <div class="gold-line"></div>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- Dermatology -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="images/service-dermatology.jpg/dermatology image.jpg" alt="Dermatology treatment at Al-Nahil Clinic Hawally Kuwait" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fas fa-stethoscope"></i></div>
+            <h3 data-en="Dermatology" data-ar="طب الجلدية">Dermatology</h3>
+            <p data-en="Medical diagnosis and treatment of all skin conditions by our board-certified dermatologist."
+               data-ar="تشخيص وعلاج جميع أمراض الجلد من قِبل طبيبتنا المعتمدة.">
+              Medical diagnosis and treatment of all skin conditions by our board-certified dermatologist.
+            </p>
+            <div class="treatments-toggle">
+              <button class="toggle-btn" data-en="View Treatments +" data-ar="عرض العلاجات +">View Treatments +</button>
+              <ul class="treatments-list">
+                <li data-en="Acne &amp; Pimples Treatment" data-ar="علاج حب الشباب">Acne &amp; Pimples Treatment</li>
+                <li data-en="Eczema &amp; Psoriasis" data-ar="الأكزيما والصدفية">Eczema &amp; Psoriasis</li>
+                <li data-en="Skin Allergy &amp; Rashes" data-ar="الحساسية والطفح الجلدي">Skin Allergy &amp; Rashes</li>
+                <li data-en="Moles &amp; Warts Removal" data-ar="إزالة الشامات والثآليل">Moles &amp; Warts Removal</li>
+                <li data-en="Skin Cancer Screening" data-ar="فحص سرطان الجلد">Skin Cancer Screening</li>
+                <li data-en="General Skin Consultation" data-ar="الاستشارة الجلدية العامة">General Skin Consultation</li>
+              </ul>
+            </div>
+            <a href="#contact" class="btn btn-gold btn-sm" data-en="Book Now" data-ar="احجزي الآن">Book Now</a>
+          </div>
+        </div>
+
+        <!-- Skincare -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="images/service-skincare.jpg/skin care treatment.jpg" alt="Skincare facial treatment at Al-Nahil Clinic Kuwait" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fas fa-spa"></i></div>
+            <h3 data-en="Skincare" data-ar="العناية بالبشرة">Skincare</h3>
+            <p data-en="Luxury cosmetic treatments to enhance, brighten and rejuvenate your skin."
+               data-ar="علاجات تجميلية فاخرة لتعزيز بشرتك وإشراقها وتجديدها.">
+              Luxury cosmetic treatments to enhance, brighten and rejuvenate your skin.
+            </p>
+            <div class="treatments-toggle">
+              <button class="toggle-btn" data-en="View Treatments +" data-ar="عرض العلاجات +">View Treatments +</button>
+              <ul class="treatments-list">
+                <li data-en="Hydration &amp; Glow Facials" data-ar="جلسات الترطيب والإشراق">Hydration &amp; Glow Facials</li>
+                <li data-en="Chemical Peels" data-ar="التقشير الكيميائي">Chemical Peels</li>
+                <li data-en="Anti-Aging Treatments" data-ar="علاجات مكافحة الشيخوخة">Anti-Aging Treatments</li>
+                <li data-en="Microneedling" data-ar="الميزوثيرابي">Microneedling</li>
+                <li data-en="Brightening &amp; Pigmentation" data-ar="تفتيح البشرة والتصبغات">Brightening &amp; Pigmentation</li>
+                <li data-en="Personalised Skincare Plans" data-ar="خطط عناية مخصصة">Personalised Skincare Plans</li>
+              </ul>
+            </div>
+            <a href="#contact" class="btn btn-gold btn-sm" data-en="Book Now" data-ar="احجزي الآن">Book Now</a>
+          </div>
+        </div>
+
+        <!-- Laser -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="images/service-laser.jpg/laser treatment.jpg" alt="Laser treatment at Al-Nahil Clinic Hawally Kuwait" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fas fa-bolt"></i></div>
+            <h3 data-en="Laser" data-ar="الليزر">Laser</h3>
+            <p data-en="State-of-the-art laser technology for hair removal, skin resurfacing and more."
+               data-ar="أحدث تقنيات الليزر لإزالة الشعر وتجديد البشرة والمزيد.">
+              State-of-the-art laser technology for hair removal, skin resurfacing and more.
+            </p>
+            <div class="treatments-toggle">
+              <button class="toggle-btn" data-en="View Treatments +" data-ar="عرض العلاجات +">View Treatments +</button>
+              <ul class="treatments-list">
+                <li data-en="Laser Hair Removal" data-ar="إزالة الشعر بالليزر">Laser Hair Removal</li>
+                <li data-en="Laser Skin Resurfacing" data-ar="تجديد البشرة بالليزر">Laser Skin Resurfacing</li>
+                <li data-en="Pigmentation &amp; Dark Spots" data-ar="إزالة التصبغات والبقع">Pigmentation &amp; Dark Spots</li>
+                <li data-en="Tattoo Removal" data-ar="إزالة الوشم">Tattoo Removal</li>
+                <li data-en="Vascular Lesion Treatment" data-ar="علاج الأوعية الدموية">Vascular Lesion Treatment</li>
+                <li data-en="Scar &amp; Stretch Mark Reduction" data-ar="تقليل الندوب وعلامات التمدد">Scar &amp; Stretch Mark Reduction</li>
+              </ul>
+            </div>
+            <a href="#contact" class="btn btn-gold btn-sm" data-en="Book Now" data-ar="احجزي الآن">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Treatment Icons -->
+      <div class="quick-treatments">
+        <div class="quick-item">
+          <i class="fas fa-circle-notch"></i>
+          <span data-en="Acne" data-ar="حب الشباب">Acne</span>
+        </div>
+        <div class="quick-item">
+          <i class="fas fa-feather"></i>
+          <span data-en="Hair Removal" data-ar="إزالة الشعر">Hair Removal</span>
+        </div>
+        <div class="quick-item">
+          <i class="fas fa-flask"></i>
+          <span data-en="Chemical Peel" data-ar="تقشير كيميائي">Chemical Peel</span>
+        </div>
+        <div class="quick-item">
+          <i class="fas fa-sun"></i>
+          <span data-en="Pigmentation" data-ar="التصبغات">Pigmentation</span>
+        </div>
+        <div class="quick-item">
+          <i class="fas fa-eraser"></i>
+          <span data-en="Tattoo Removal" data-ar="إزالة الوشم">Tattoo Removal</span>
+        </div>
+        <div class="quick-item">
+          <i class="fas fa-leaf"></i>
+          <span data-en="Anti-Aging" data-ar="مكافحة الشيخوخة">Anti-Aging</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ ABOUT ═══ -->
+  <section id="about" class="about-section">
+    <div class="about-grid">
+      <div class="about-img">
+        <img src="images/about-clinic.jpg/about clinic.jpeg" alt="Al-Nahil Clinic interior — luxury dermatology clinic in Hawally Kuwait" />
+        <div class="about-img-border"></div>
+      </div>
+      <div class="about-text">
+        <span class="section-label light" data-en="Our Story" data-ar="قصتنا">Our Story</span>
+        <h2 data-en="About Al-Nahil Clinic" data-ar="عن عيادة النهيل">About Al-Nahil Clinic</h2>
+        <div class="gold-line"></div>
+        <p data-en="Established in 2015, Al-Nahil Clinic has been Kuwait's trusted destination for dermatology, skincare, and laser treatments. Located in the heart of Hawally, inside Al-Nahil International Center — behind the Southern Nugra Complex — we combine medical expertise with luxury care to help every client look and feel their best."
+           data-ar="منذ تأسيسها عام ٢٠١٥، أصبحت عيادة النهيل وجهة الكويت الموثوقة لطب الجلدية والعناية بالبشرة وعلاجات الليزر. نجمع بين الخبرة الطبية والرعاية الفاخرة لمساعدة كل عميلة على إبراز جمالها.">
+          Established in 2015, Al-Nahil Clinic has been Kuwait's trusted destination for dermatology, skincare, and laser treatments. Located in the heart of Hawally, inside Al-Nahil International Center — behind the Southern Nugra Complex — we combine medical expertise with luxury care to help every client look and feel their best.
+        </p>
+        <ul class="about-checks">
+          <li><i class="fas fa-diamond"></i> <span data-en="Board-Certified Dermatologist" data-ar="طبيبة جلدية معتمدة">Board-Certified Dermatologist</span></li>
+          <li><i class="fas fa-diamond"></i> <span data-en="Sterilisation &amp; Hygiene Standards" data-ar="معايير التعقيم والنظافة">Sterilisation &amp; Hygiene Standards</span></li>
+          <li><i class="fas fa-diamond"></i> <span data-en="Personalised Treatment Plans" data-ar="خطط علاجية مخصصة">Personalised Treatment Plans</span></li>
+          <li><i class="fas fa-diamond"></i> <span data-en="Comfortable Modern Facility" data-ar="منشأة حديثة ومريحة">Comfortable Modern Facility</span></li>
+        </ul>
+        <blockquote class="about-quote">
+          "Love of beauty is taste. The creation of beauty is art."
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ DOCTOR ═══ -->
+  <section class="doctor-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-en="Our Specialist" data-ar="طبيبتنا المتخصصة">Our Specialist</span>
+        <h2 data-en="Meet Your Doctor" data-ar="تعرفي على طبيبتك">Meet Your Doctor</h2>
+        <div class="gold-line"></div>
+      </div>
+      <div class="doctor-card">
+        <div class="doctor-photo">
+          <img src="images/doctors.png/DR. Alaa Al-Harbi.png" alt="Dr. Alaa Al-Harbi — Dermatology and Laser Specialist at Al-Nahil Clinic Kuwait" />
+        </div>
+        <div class="doctor-info">
+          <h3 data-en="Dr. Alaa Al-Harbi" data-ar="د. علاء الحربي">Dr. Alaa Al-Harbi</h3>
+          <div class="doctor-title-line"></div>
+          <p class="doctor-title" data-en="Dermatology &amp; Laser Specialist" data-ar="أخصائية طب الجلدية والليزر">Dermatology &amp; Laser Specialist</p>
+          <ul class="doctor-creds">
+            <li><i class="fas fa-certificate"></i> <span data-en="Board-Certified Dermatologist" data-ar="طبيبة جلدية معتمدة">Board-Certified Dermatologist</span></li>
+            <li><i class="fas fa-certificate"></i> <span data-en="Member, Kuwait Medical Association" data-ar="عضو جمعية الأطباء الكويتية">Member, Kuwait Medical Association</span></li>
+            <li><i class="fas fa-certificate"></i> <span data-en="10+ Years Experience" data-ar="أكثر من ١٠ سنوات خبرة">10+ Years Experience</span></li>
+          </ul>
+          <p class="doctor-bio" data-en="Dr. Alaa Al-Harbi brings over 10 years of expertise in dermatology and cosmetic laser treatments, offering personalised care to every patient at Al-Nahil Clinic in Hawally, Kuwait."
+             data-ar="تمتلك د. علاء الحربي أكثر من ١٠ سنوات من الخبرة في طب الجلدية وعلاجات الليزر التجميلية، وتقدم رعاية شخصية لكل مريضة في عيادة النهيل بحولي، الكويت.">
+            Dr. Alaa Al-Harbi brings over 10 years of expertise in dermatology and cosmetic laser treatments, offering personalised care to every patient at Al-Nahil Clinic in Hawally, Kuwait.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ BEFORE & AFTER ═══ -->
+  <section id="results" class="results-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-en="Transformations" data-ar="التحولات">Transformations</span>
+        <h2 data-en="Real Results" data-ar="نتائج حقيقية">Real Results</h2>
+        <div class="gold-line"></div>
+        <p class="section-sub" data-en="See the transformations our clients experience"
+                               data-ar="شاهدي التحولات التي تعيشها عميلاتنا">
+          See the transformations our clients experience
+        </p>
+      </div>
+
+      <div class="ba-grid">
+        <div class="ba-card">
+          <div class="ba-label" data-en="Laser Hair Removal" data-ar="إزالة الشعر بالليزر">Laser Hair Removal</div>
+          <div class="ba-slider-wrap">
+            <div class="ba-before">
+              <img src="images/before-after.jpg/before and after image 1.png" alt="Before laser hair removal treatment" />
+              <span class="ba-tag before-tag" data-en="Before" data-ar="قبل">Before</span>
+            </div>
+            <div class="ba-after">
+              <img src="images/before-after.jpg/before and after image 1.png" alt="After laser hair removal treatment" />
+              <span class="ba-tag after-tag" data-en="After" data-ar="بعد">After</span>
+            </div>
+            <input type="range" class="ba-range" min="0" max="100" value="50" aria-label="Before after comparison slider" />
+            <div class="ba-handle"></div>
+          </div>
+        </div>
+        <div class="ba-card">
+          <div class="ba-label" data-en="Acne Treatment" data-ar="علاج حب الشباب">Acne Treatment</div>
+          <div class="ba-slider-wrap">
+            <div class="ba-before">
+              <img src="images/before-after.jpg/before and after image 2.png" alt="Before acne treatment" />
+              <span class="ba-tag before-tag" data-en="Before" data-ar="قبل">Before</span>
+            </div>
+            <div class="ba-after">
+              <img src="images/before-after.jpg/before and after image 2.png" alt="After acne treatment" />
+              <span class="ba-tag after-tag" data-en="After" data-ar="بعد">After</span>
+            </div>
+            <input type="range" class="ba-range" min="0" max="100" value="50" aria-label="Before after comparison slider" />
+            <div class="ba-handle"></div>
+          </div>
+        </div>
+        <div class="ba-card">
+          <div class="ba-label" data-en="Skin Brightening" data-ar="تفتيح البشرة">Skin Brightening</div>
+          <div class="ba-slider-wrap">
+            <div class="ba-before">
+              <img src="images/before-after.jpg/before and after image 3.png" alt="Before skin brightening" />
+              <span class="ba-tag before-tag" data-en="Before" data-ar="قبل">Before</span>
+            </div>
+            <div class="ba-after">
+              <img src="images/before-after.jpg/before and after image 3.png" alt="After skin brightening" />
+              <span class="ba-tag after-tag" data-en="After" data-ar="بعد">After</span>
+            </div>
+            <input type="range" class="ba-range" min="0" max="100" value="50" aria-label="Before after comparison slider" />
+            <div class="ba-handle"></div>
+          </div>
+        </div>
+        <div class="ba-card">
+          <div class="ba-label" data-en="Pigmentation Removal" data-ar="إزالة التصبغات">Pigmentation Removal</div>
+          <div class="ba-slider-wrap">
+            <div class="ba-before">
+              <img src="images/before-after.jpg/before and after image 4.png" alt="Before pigmentation removal" />
+              <span class="ba-tag before-tag" data-en="Before" data-ar="قبل">Before</span>
+            </div>
+            <div class="ba-after">
+              <img src="images/before-after.jpg/before and after image 4.png" alt="After pigmentation removal" />
+              <span class="ba-tag after-tag" data-en="After" data-ar="بعد">After</span>
+            </div>
+            <input type="range" class="ba-range" min="0" max="100" value="50" aria-label="Before after comparison slider" />
+            <div class="ba-handle"></div>
+          </div>
+        </div>
+        <div class="ba-card">
+          <div class="ba-label" data-en="Chemical Peel" data-ar="التقشير الكيميائي">Chemical Peel</div>
+          <div class="ba-slider-wrap">
+            <div class="ba-before">
+              <img src="images/before-after.jpg/before and after image 5.png" alt="Before chemical peel" />
+              <span class="ba-tag before-tag" data-en="Before" data-ar="قبل">Before</span>
+            </div>
+            <div class="ba-after">
+              <img src="images/before-after.jpg/before and after image 5.png" alt="After chemical peel" />
+              <span class="ba-tag after-tag" data-en="After" data-ar="بعد">After</span>
+            </div>
+            <input type="range" class="ba-range" min="0" max="100" value="50" aria-label="Before after comparison slider" />
+            <div class="ba-handle"></div>
+          </div>
+        </div>
+        <div class="ba-card">
+          <div class="ba-label" data-en="Anti-Aging" data-ar="مكافحة الشيخوخة">Anti-Aging</div>
+          <div class="ba-slider-wrap">
+            <div class="ba-before">
+              <img src="images/before-after.jpg/before and after image 6.png" alt="Before anti-aging treatment" />
+              <span class="ba-tag before-tag" data-en="Before" data-ar="قبل">Before</span>
+            </div>
+            <div class="ba-after">
+              <img src="images/before-after.jpg/before and after image 6.png" alt="After anti-aging treatment" />
+              <span class="ba-tag after-tag" data-en="After" data-ar="بعد">After</span>
+            </div>
+            <input type="range" class="ba-range" min="0" max="100" value="50" aria-label="Before after comparison slider" />
+            <div class="ba-handle"></div>
+          </div>
+        </div>
+      </div>
+
+      <p class="ba-disclaimer" data-en="Results may vary. All treatments performed by licensed professionals."
+                               data-ar="النتائج قد تختلف من شخص لآخر. جميع العلاجات تجرى على يد متخصصين معتمدين.">
+        Results may vary. All treatments performed by licensed professionals.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ VIDEO REEL ═══ -->
+  <section class="reel-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label light" data-en="Behind the Scenes" data-ar="كواليس العيادة">Behind the Scenes</span>
+        <h2 data-en="Inside Al-Nahil" data-ar="داخل عيادة النهيل">Inside Al-Nahil</h2>
+        <div class="gold-line"></div>
+      </div>
+    </div>
+    <div class="reel-container">
+      <button class="reel-arrow reel-arrow-left" aria-label="Scroll left">&#8249;</button>
+      <div class="reel-track-wrap" id="reel-track-wrap">
+        <div class="reel-track" id="reel-track">
+          <!-- Set 1 — 6 unique videos (autoplay muted loop) -->
+          <div class="reel-item">
+            <video autoplay muted loop playsinline>
+              <source src="videos/videos-reels.mp4/video 1.mp4" type="video/mp4" />
+            </video>
+            <div class="reel-sound-icon"><i class="fas fa-volume-mute"></i></div>
+          </div>
+          <div class="reel-item">
+            <video autoplay muted loop playsinline>
+              <source src="videos/videos-reels.mp4/video 2.mp4" type="video/mp4" />
+            </video>
+            <div class="reel-sound-icon"><i class="fas fa-volume-mute"></i></div>
+          </div>
+          <div class="reel-item">
+            <video autoplay muted loop playsinline>
+              <source src="videos/videos-reels.mp4/video 3.mp4" type="video/mp4" />
+            </video>
+            <div class="reel-sound-icon"><i class="fas fa-volume-mute"></i></div>
+          </div>
+          <div class="reel-item">
+            <video autoplay muted loop playsinline>
+              <source src="videos/videos-reels.mp4/video 4.mp4" type="video/mp4" />
+            </video>
+            <div class="reel-sound-icon"><i class="fas fa-volume-mute"></i></div>
+          </div>
+          <div class="reel-item">
+            <video autoplay muted loop playsinline>
+              <source src="videos/videos-reels.mp4/video 5.mp4" type="video/mp4" />
+            </video>
+            <div class="reel-sound-icon"><i class="fas fa-volume-mute"></i></div>
+          </div>
+          <div class="reel-item">
+            <video autoplay muted loop playsinline>
+              <source src="videos/videos-reels.mp4/video 6.mp4" type="video/mp4" />
+            </video>
+            <div class="reel-sound-icon"><i class="fas fa-volume-mute"></i></div>
+          </div>
+          <!-- Set 2 — duplicate for seamless CSS loop -->
+          <div class="reel-item">
+            <video autoplay muted loop playsinline>
+              <source src="videos/videos-reels.mp4/video 1.mp4" type="video/mp4" />
+            </video>
+            <div class="reel-sound-icon"><i class="fas fa-volume-mute"></i></div>
+          </div>
+          <div class="reel-item">
+            <video autoplay muted loop playsinline>
+              <source src="videos/videos-reels.mp4/video 2.mp4" type="video/mp4" />
+            </video>
+            <div class="reel-sound-icon"><i class="fas fa-volume-mute"></i></div>
+          </div>
+          <div class="reel-item">
+            <video autoplay muted loop playsinline>
+              <source src="videos/videos-reels.mp4/video 3.mp4" type="video/mp4" />
+            </video>
+            <div class="reel-sound-icon"><i class="fas fa-volume-mute"></i></div>
+          </div>
+          <div class="reel-item">
+            <video autoplay muted loop playsinline>
+              <source src="videos/videos-reels.mp4/video 4.mp4" type="video/mp4" />
+            </video>
+            <div class="reel-sound-icon"><i class="fas fa-volume-mute"></i></div>
+          </div>
+          <div class="reel-item">
+            <video autoplay muted loop playsinline>
+              <source src="videos/videos-reels.mp4/video 5.mp4" type="video/mp4" />
+            </video>
+            <div class="reel-sound-icon"><i class="fas fa-volume-mute"></i></div>
+          </div>
+          <div class="reel-item">
+            <video autoplay muted loop playsinline>
+              <source src="videos/videos-reels.mp4/video 6.mp4" type="video/mp4" />
+            </video>
+            <div class="reel-sound-icon"><i class="fas fa-volume-mute"></i></div>
+          </div>
+        </div>
+      </div>
+      <button class="reel-arrow reel-arrow-right" aria-label="Scroll right">&#8250;</button>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ TESTIMONIALS ═══ -->
+  <section id="reviews" class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-en="Client Stories" data-ar="تجارب عميلاتنا">Client Stories</span>
+        <h2 data-en="What Our Clients Say" data-ar="ماذا تقول عميلاتنا">What Our Clients Say</h2>
+        <div class="gold-line"></div>
+      </div>
+    </div>
+    <div class="testimonials-track-wrap">
+      <div class="testimonials-track">
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text" data-en="Amazing service, the team are pro in their work. The lady on reception is very kind and welcoming. Highly recommended."
+             data-ar="خدمة رائعة، الفريق محترف جداً في عمله. الموظفة في الاستقبال ودودة ومرحبة جداً. أنصح بشدة.">
+            Amazing service, the team are pro in their work. The lady on reception is very kind and welcoming. Highly recommended.
+          </p>
+          <div class="review-author">
+            <span class="review-name">Mirvat Ghanem</span>
+            <span class="review-badge">Google Review</span>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text" data-en="What a nice service!! It was a great experience."
+             data-ar="يا له من خدمة رائعة!! كانت تجربة جميلة جداً.">
+            What a nice service!! It was a great experience.
+          </p>
+          <div class="review-author">
+            <span class="review-name">RAMA Alarabi</span>
+            <span class="review-badge">Google Review</span>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text" data-en="A well-organized clinic; they are meticulous about sterilization and punctuality, and their laser treatments are excellent, having been done there for years."
+             data-ar="عيادة منظمة جداً، دقيقون في التعقيم والمواعيد، وعلاجات الليزر ممتازة، أتردد عليها منذ سنوات.">
+            A well-organized clinic; they are meticulous about sterilization and punctuality, and their laser treatments are excellent, having been done there for years.
+          </p>
+          <div class="review-author">
+            <span class="review-name">Hammouchi Q8</span>
+            <span class="review-badge">Google Review</span>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text" data-en="Good place, I got a facial on the 8th floor, it's amazing and clean."
+             data-ar="مكان رائع، حصلت على جلسة بشرة، مذهلة ونظيفة جداً.">
+            Good place, I got a facial on the 8th floor, it's amazing and clean.
+          </p>
+          <div class="review-author">
+            <span class="review-name">Mneera Alazemi</span>
+            <span class="review-badge">Google Review</span>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★<span style="opacity:0.3">★</span></div>
+          <p class="review-text" data-en="Excellent service. Professional staff. Great management. Comfortable laser device. Best of luck!"
+             data-ar="خدمة ممتازة. طاقم محترف. إدارة رائعة. جهاز ليزر مريح. دوام التوفيق!">
+            Excellent service. Professional staff. Great management. Comfortable laser device. Best of luck!
+          </p>
+          <div class="review-author">
+            <span class="review-name">Ahmad Berri</span>
+            <span class="review-badge">Google Review</span>
+          </div>
+        </div>
+
+        <!-- Duplicate for seamless loop -->
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text" data-en="Amazing service, the team are pro in their work. The lady on reception is very kind and welcoming. Highly recommended."
+             data-ar="خدمة رائعة، الفريق محترف جداً في عمله. الموظفة في الاستقبال ودودة ومرحبة جداً. أنصح بشدة.">
+            Amazing service, the team are pro in their work. The lady on reception is very kind and welcoming. Highly recommended.
+          </p>
+          <div class="review-author">
+            <span class="review-name">Mirvat Ghanem</span>
+            <span class="review-badge">Google Review</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text" data-en="What a nice service!! It was a great experience."
+             data-ar="يا له من خدمة رائعة!! كانت تجربة جميلة جداً.">
+            What a nice service!! It was a great experience.
+          </p>
+          <div class="review-author">
+            <span class="review-name">RAMA Alarabi</span>
+            <span class="review-badge">Google Review</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text" data-en="A well-organized clinic; they are meticulous about sterilization and punctuality, and their laser treatments are excellent, having been done there for years."
+             data-ar="عيادة منظمة جداً، دقيقون في التعقيم والمواعيد، وعلاجات الليزر ممتازة، أتردد عليها منذ سنوات.">
+            A well-organized clinic; they are meticulous about sterilization and punctuality, and their laser treatments are excellent, having been done there for years.
+          </p>
+          <div class="review-author">
+            <span class="review-name">Hammouchi Q8</span>
+            <span class="review-badge">Google Review</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text" data-en="Good place, I got a facial on the 8th floor, it's amazing and clean."
+             data-ar="مكان رائع، حصلت على جلسة بشرة، مذهلة ونظيفة جداً.">
+            Good place, I got a facial on the 8th floor, it's amazing and clean.
+          </p>
+          <div class="review-author">
+            <span class="review-name">Mneera Alazemi</span>
+            <span class="review-badge">Google Review</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★<span style="opacity:0.3">★</span></div>
+          <p class="review-text" data-en="Excellent service. Professional staff. Great management. Comfortable laser device. Best of luck!"
+             data-ar="خدمة ممتازة. طاقم محترف. إدارة رائعة. جهاز ليزر مريح. دوام التوفيق!">
+            Excellent service. Professional staff. Great management. Comfortable laser device. Best of luck!
+          </p>
+          <div class="review-author">
+            <span class="review-name">Ahmad Berri</span>
+            <span class="review-badge">Google Review</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ FAQ ═══ -->
+  <section id="faq" class="faq-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-en="Got Questions?" data-ar="لديكِ أسئلة؟">Got Questions?</span>
+        <h2 data-en="Frequently Asked Questions" data-ar="الأسئلة الشائعة">Frequently Asked Questions</h2>
+        <div class="gold-line"></div>
+      </div>
+
+      <div class="faq-list">
+
+        <details class="faq-item">
+          <summary>
+            <span data-en="Is laser hair removal safe for all skin types?"
+                  data-ar="هل إزالة الشعر بالليزر آمنة لجميع أنواع البشرة؟">Is laser hair removal safe for all skin types?</span>
+            <i class="fas fa-chevron-down faq-arrow"></i>
+          </summary>
+          <div class="faq-answer">
+            <p data-en="Yes. At Al-Nahil Clinic we use advanced laser systems suitable for all skin types and tones, including darker skin common across Kuwait and the Gulf."
+               data-ar="نعم. في عيادة النهيل نستخدم أجهزة ليزر متطورة مناسبة لجميع أنواع وألوان البشرة، بما فيها البشرة الداكنة الشائعة في الكويت والخليج.">
+              Yes. At Al-Nahil Clinic we use advanced laser systems suitable for all skin types and tones, including darker skin common across Kuwait and the Gulf.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span data-en="How many sessions do I need to see results?"
+                  data-ar="كم عدد الجلسات اللازمة لرؤية النتائج؟">How many sessions do I need to see results?</span>
+            <i class="fas fa-chevron-down faq-arrow"></i>
+          </summary>
+          <div class="faq-answer">
+            <p data-en="Most clients see significant results after 4–6 sessions. The exact number depends on your skin type, hair type, and treatment area. Dr. Alaa will advise during your initial consultation."
+               data-ar="معظم العميلات يلاحظن نتائج واضحة بعد ٤ إلى ٦ جلسات. يعتمد العدد الدقيق على نوع بشرتك وشعرك ومنطقة العلاج. ستنصحك د. علاء خلال الاستشارة الأولى.">
+              Most clients see significant results after 4–6 sessions. The exact number depends on your skin type, hair type, and treatment area. Dr. Alaa will advise during your initial consultation.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span data-en="What is the difference between skincare and dermatology?"
+                  data-ar="ما الفرق بين العناية بالبشرة وطب الجلدية؟">What is the difference between skincare and dermatology?</span>
+            <i class="fas fa-chevron-down faq-arrow"></i>
+          </summary>
+          <div class="faq-answer">
+            <p data-en="Dermatology is the medical diagnosis and treatment of skin conditions and diseases. Skincare focuses on cosmetic enhancement — improving texture, tone, hydration and appearance. Al-Nahil Clinic offers both under one roof."
+               data-ar="طب الجلدية هو التشخيص الطبي وعلاج أمراض وحالات الجلد. أما العناية بالبشرة فتركز على التجميل — تحسين القوام والإشراق والترطيب والمظهر. عيادة النهيل تقدم كليهما تحت سقف واحد.">
+              Dermatology is the medical diagnosis and treatment of skin conditions and diseases. Skincare focuses on cosmetic enhancement — improving texture, tone, hydration and appearance. Al-Nahil Clinic offers both under one roof.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span data-en="Do you treat sensitive skin?"
+                  data-ar="هل تعالجون البشرة الحساسة؟">Do you treat sensitive skin?</span>
+            <i class="fas fa-chevron-down faq-arrow"></i>
+          </summary>
+          <div class="faq-answer">
+            <p data-en="Absolutely. Dr. Alaa Al-Harbi specialises in personalised treatment plans carefully tailored to sensitive skin types, ensuring safety and comfort throughout."
+               data-ar="بالتأكيد. تتخصص د. علاء الحربي في وضع خطط علاجية مخصصة تناسب البشرة الحساسة، مع ضمان السلامة والراحة طوال العلاج.">
+              Absolutely. Dr. Alaa Al-Harbi specialises in personalised treatment plans carefully tailored to sensitive skin types, ensuring safety and comfort throughout.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span data-en="Is there any downtime after laser treatments?"
+                  data-ar="هل هناك فترة تعافٍ بعد علاجات الليزر؟">Is there any downtime after laser treatments?</span>
+            <i class="fas fa-chevron-down faq-arrow"></i>
+          </summary>
+          <div class="faq-answer">
+            <p data-en="Most laser treatments have minimal to no downtime. You may experience mild redness for a few hours after your session. Full aftercare instructions are provided."
+               data-ar="معظم علاجات الليزر لا تتطلب أي فترة تعافٍ أو تكون قصيرة جداً. قد تشعرين باحمرار خفيف لبضع ساعات بعد الجلسة. يتم تزويدك بإرشادات العناية الكاملة بعد العلاج.">
+              Most laser treatments have minimal to no downtime. You may experience mild redness for a few hours after your session. Full aftercare instructions are provided.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span data-en="Do you offer consultations before treatment?"
+                  data-ar="هل تقدمون استشارة قبل العلاج؟">Do you offer consultations before treatment?</span>
+            <i class="fas fa-chevron-down faq-arrow"></i>
+          </summary>
+          <div class="faq-answer">
+            <p data-en="Yes, we always recommend beginning with a consultation with Dr. Alaa Al-Harbi. This allows us to assess your skin, understand your goals, and design the right treatment plan for you."
+               data-ar="نعم، ننصح دائماً بالبدء باستشارة مع د. علاء الحربي. يتيح لنا ذلك تقييم بشرتك وفهم أهدافك ووضع خطة العلاج المناسبة لك.">
+              Yes, we always recommend beginning with a consultation with Dr. Alaa Al-Harbi. This allows us to assess your skin, understand your goals, and design the right treatment plan for you.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span data-en="How much do treatments cost?"
+                  data-ar="ما هي تكلفة العلاجات؟">How much do treatments cost?</span>
+            <i class="fas fa-chevron-down faq-arrow"></i>
+          </summary>
+          <div class="faq-answer">
+            <p data-en="Treatment costs vary based on the procedure and number of sessions required. Please contact us directly or book a consultation for a personalised quote."
+               data-ar="تتفاوت تكاليف العلاج بحسب الإجراء وعدد الجلسات المطلوبة. يرجى التواصل معنا مباشرة أو حجز استشارة للحصول على عرض سعر مخصص.">
+              Treatment costs vary based on the procedure and number of sessions required. Please contact us directly or book a consultation for a personalised quote.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span data-en="Can I book an appointment online?"
+                  data-ar="هل يمكنني حجز موعد عبر الإنترنت؟">Can I book an appointment online?</span>
+            <i class="fas fa-chevron-down faq-arrow"></i>
+          </summary>
+          <div class="faq-answer">
+            <p data-en="Yes! You can submit a booking request using the form below, or message us directly on WhatsApp at +965 6003 0620 for the fastest response."
+               data-ar="نعم! يمكنك إرسال طلب حجز باستخدام النموذج أدناه، أو مراسلتنا مباشرة عبر واتساب على +965 6003 0620 للحصول على رد سريع.">
+              Yes! You can submit a booking request using the form below, or message us directly on WhatsApp at +965 6003 0620 for the fastest response.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span data-en="What should I do before my first laser session?"
+                  data-ar="ماذا يجب أن أفعل قبل جلسة الليزر الأولى؟">What should I do before my first laser session?</span>
+            <i class="fas fa-chevron-down faq-arrow"></i>
+          </summary>
+          <div class="faq-answer">
+            <p data-en="Avoid sun exposure for 2 weeks prior. Do not wax or pluck the area. Shave the area 24 hours before your session. Avoid applying creams or perfumes on the day. Our team will guide you through full preparation instructions."
+               data-ar="تجنبي التعرض للشمس لمدة أسبوعين قبل الجلسة. لا تستخدمي الشمع أو تنتفي الشعر. احلقي المنطقة قبل ٢٤ ساعة من الجلسة. تجنبي الكريمات والعطور في يوم الجلسة. سيرشدك فريقنا بالتعليمات الكاملة.">
+              Avoid sun exposure for 2 weeks prior. Do not wax or pluck the area. Shave the area 24 hours before your session. Avoid applying creams or perfumes on the day. Our team will guide you through full preparation instructions.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span data-en="Are your devices medically certified?"
+                  data-ar="هل أجهزتكم معتمدة طبياً؟">Are your devices medically certified?</span>
+            <i class="fas fa-chevron-down faq-arrow"></i>
+          </summary>
+          <div class="faq-answer">
+            <p data-en="Yes. All laser and skincare devices at Al-Nahil Clinic are medically certified and approved for use in Kuwait. We invest in the latest technology to ensure the safest and most effective outcomes for our clients."
+               data-ar="نعم. جميع أجهزة الليزر والعناية بالبشرة في عيادة النهيل معتمدة طبياً ومرخصة للاستخدام في الكويت. نستثمر في أحدث التقنيات لضمان أفضل وأأمن النتائج لعميلاتنا.">
+              Yes. All laser and skincare devices at Al-Nahil Clinic are medically certified and approved for use in Kuwait. We invest in the latest technology to ensure the safest and most effective outcomes for our clients.
+            </p>
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ CONTACT ═══ -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-en="Get In Touch" data-ar="تواصلي معنا">Get In Touch</span>
+        <h2 data-en="Book Your Appointment" data-ar="احجزي موعدك">Book Your Appointment</h2>
+        <div class="gold-line"></div>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Map -->
+        <div class="contact-map">
+          <!-- PLACEHOLDER — client to provide correct Google Maps embed code -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3478.5!2d47.9774!3d29.3317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zAl-Nahil+Clinic!5e0!3m2!1sen!2skw!4v1"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            title="Al-Nahil Clinic Location — Hawally, Kuwait"></iframe>
+
+          <!-- NAP -->
+          <div class="nap-block">
+            <div class="nap-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span data-en="Hawally, Al-Nahil International Center, 6th Floor, behind Southern Nugra Complex"
+                    data-ar="حولي، مركز النهيل الدولي، الدور السادس، خلف مجمع النقرة الجنوبي">
+                Hawally, Al-Nahil International Center, 6th Floor, behind Southern Nugra Complex
+              </span>
+            </div>
+            <div class="nap-item">
+              <i class="fas fa-phone"></i>
+              <a href="tel:+96560030620">+965 6003 0620</a>
+            </div>
+            <div class="nap-item">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:alnahilfloor6@gmail.com">alnahilfloor6@gmail.com</a>
+            </div>
+            <div class="nap-item">
+              <i class="fas fa-clock"></i>
+              <span data-en="Sat–Thu: 9:00 AM – 9:00 PM | Friday: Closed"
+                    data-ar="السبت–الخميس: ٩ص – ٩م | الجمعة: مغلق">
+                Sat–Thu: 9:00 AM – 9:00 PM | Friday: Closed
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrap">
+          <!-- Replace with Google Apps Script URL from your Sheet -->
+          <form id="contact-form" action="[PLACEHOLDER — Google Apps Script URL]" method="POST">
+            <div class="form-group">
+              <input type="text" name="name" required
+                     data-placeholder-en="Full Name" data-placeholder-ar="الاسم الكامل"
+                     placeholder="Full Name" />
+            </div>
+            <div class="form-group">
+              <input type="tel" name="phone" required
+                     data-placeholder-en="Phone Number" data-placeholder-ar="رقم الهاتف"
+                     placeholder="Phone Number" />
+            </div>
+            <div class="form-group">
+              <input type="email" name="email"
+                     data-placeholder-en="Email Address" data-placeholder-ar="البريد الإلكتروني"
+                     placeholder="Email Address" />
+            </div>
+            <div class="form-group">
+              <select name="service">
+                <option value="" data-en="Select Service" data-ar="اختاري الخدمة">Select Service</option>
+                <option value="dermatology" data-en="Dermatology" data-ar="طب الجلدية">Dermatology</option>
+                <option value="skincare" data-en="Skincare" data-ar="العناية بالبشرة">Skincare</option>
+                <option value="laser" data-en="Laser" data-ar="الليزر">Laser</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <input type="date" name="date" />
+            </div>
+            <div class="form-group">
+              <textarea name="message" rows="4"
+                        data-placeholder-en="Your Message (optional)" data-placeholder-ar="رسالتك (اختياري)"
+                        placeholder="Your Message (optional)"></textarea>
+            </div>
+            <button type="submit" class="btn btn-gold btn-full"
+                    data-en="Send Request" data-ar="إرسال الطلب">Send Request</button>
+            <div class="form-success" id="contact-success" hidden>
+              <p>Thank you! We'll contact you soon. / شكراً! سنتواصل معك قريباً.</p>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo.png/alnail_logo.png" alt="Al-Nahil Clinic Logo" class="footer-logo" />
+          <p data-en="Your trusted skin clinic in Kuwait"
+             data-ar="عيادتك الموثوقة للعناية بالبشرة في الكويت">
+            Your trusted skin clinic in Kuwait
+          </p>
+        </div>
+        <div class="footer-links">
+          <h4 data-en="Quick Links" data-ar="روابط سريعة">Quick Links</h4>
+          <ul>
+            <li><a href="#home"     data-en="Home"      data-ar="الرئيسية">Home</a></li>
+            <li><a href="#services" data-en="Services"  data-ar="خدماتنا">Services</a></li>
+            <li><a href="#about"    data-en="About"     data-ar="من نحن">About</a></li>
+            <li><a href="#results"  data-en="Results"   data-ar="نتائجنا">Results</a></li>
+            <li><a href="#faq"      data-en="FAQ"       data-ar="الأسئلة الشائعة">FAQ</a></li>
+            <li><a href="#contact"  data-en="Contact"   data-ar="تواصل معنا">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4 data-en="Contact Us" data-ar="تواصلي معنا">Contact Us</h4>
+          <p><i class="fas fa-map-marker-alt"></i>
+            <span data-en="Hawally, Al-Nahil Center, 6th Floor"
+                  data-ar="حولي، مركز النهيل، الدور السادس">Hawally, Al-Nahil Center, 6th Floor</span></p>
+          <p><i class="fas fa-phone"></i> <a href="tel:+96560030620">+965 6003 0620</a></p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:alnahilfloor6@gmail.com">alnahilfloor6@gmail.com</a></p>
+          <p><i class="fas fa-clock"></i>
+            <span data-en="Sat–Thu: 9AM–9PM" data-ar="السبت–الخميس: ٩ص–٩م">Sat–Thu: 9AM–9PM</span></p>
+        </div>
+        <div class="footer-social">
+          <h4 data-en="Follow Us" data-ar="تابعينا">Follow Us</h4>
+          <a href="https://www.instagram.com/alnahil_6/" target="_blank" rel="noopener noreferrer" class="instagram-link" aria-label="Al-Nahil Clinic Instagram">
+            <i class="fab fa-instagram"></i>
+            <span>@alnahil_6</span>
+          </a>
+          <a href="https://wa.me/96560030620?text=مرحباً، أود حجز استشارة في عيادة النهيل" target="_blank" rel="noopener noreferrer" class="wa-link" aria-label="WhatsApp Al-Nahil Clinic">
+            <i class="fab fa-whatsapp"></i>
+            <span data-en="WhatsApp Us" data-ar="واتساب">WhatsApp Us</span>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          <span data-en="© 2025 Al-Nahil Clinic. All rights reserved."
+                data-ar="© ٢٠٢٥ عيادة النهيل. جميع الحقوق محفوظة.">
+            © 2025 Al-Nahil Clinic. All rights reserved.
+          </span>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════ WHATSAPP FLOAT ═══ -->
+  <a href="https://wa.me/96560030620?text=مرحباً، أود حجز استشارة في عيادة النهيل"
+     class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="wa-tooltip" data-en="Chat with us on WhatsApp" data-ar="تواصلي معنا عبر واتساب">Chat with us on WhatsApp</span>
+  </a>
+
+  <!-- ═══════════════════════════════════════ POPUP FORM ═══ -->
+  <div id="popup-overlay" class="popup-overlay" role="dialog" aria-modal="true" aria-labelledby="popup-heading">
+    <div class="popup-box">
+      <button class="popup-close" id="popup-close" aria-label="Close popup">&times;</button>
+      <div class="popup-header">
+        <img src="images/logo.png/alnail_logo.png" alt="Al-Nahil Clinic" class="popup-logo" />
+        <h3 id="popup-heading" data-en="Book Your Free Consultation" data-ar="احجزي استشارتك المجانية">Book Your Free Consultation</h3>
+        <p data-en="Limited slots available — reserve yours today."
+           data-ar="الأماكن محدودة — احجزي مكانك اليوم.">Limited slots available — reserve yours today.</p>
+      </div>
+      <!-- Replace with Google Apps Script URL from your Sheet -->
+      <form id="popup-form" action="[PLACEHOLDER — Google Apps Script URL]" method="POST">
+        <div class="form-group">
+          <input type="text" name="name" required
+                 data-placeholder-en="Your Name" data-placeholder-ar="اسمك"
+                 placeholder="Your Name" />
+        </div>
+        <div class="form-group">
+          <input type="tel" name="phone" required
+                 data-placeholder-en="Phone Number" data-placeholder-ar="رقم الهاتف"
+                 placeholder="Phone Number" />
+        </div>
+        <div class="form-group">
+          <select name="service">
+            <option value="" data-en="Service Interested In" data-ar="الخدمة المطلوبة">Service Interested In</option>
+            <option value="dermatology" data-en="Dermatology" data-ar="طب الجلدية">Dermatology</option>
+            <option value="skincare" data-en="Skincare" data-ar="العناية بالبشرة">Skincare</option>
+            <option value="laser" data-en="Laser" data-ar="الليزر">Laser</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-gold btn-full"
+                data-en="Book Now" data-ar="احجزي الآن">Book Now</button>
+        <div class="form-success" id="popup-success" hidden>
+          <p>Thank you! / شكراً! We'll be in touch soon.</p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
